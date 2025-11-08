@@ -1,6 +1,6 @@
 # 🛍️ EProject – Nền tảng Thương mại điện tử theo kiến trúc Microservices
 
-## 📖 Giới thiệuu
+## 📖 Giới thiệu
 
 Dự án này mô phỏng một hệ thống thương mại điện tử hiện đại được phát triển theo kiến trúc **Microservices**, sử dụng **Node.js, Express, MongoDB** và **RabbitMQ**.  
 Mỗi chức năng chính được tách biệt thành một service độc lập, đảm nhiệm vai trò riêng, giao tiếp với nhau thông qua **API Gateway** và **Message Broker** để đảm bảo tính mở rộng, tách biệt và dễ bảo trì.
