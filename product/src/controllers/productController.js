@@ -99,7 +99,7 @@ class ProductController {
       res.status(500).json({ message: "Server error" });
     }
   }
-// cau 8 nay
+// tim san pham theo id
     async getID(req,res,next){
       const products = await Product.findById(req.params.id);
       res.status(200).json(products);
